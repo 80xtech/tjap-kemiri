@@ -1,0 +1,10 @@
+{
+  "name": "CafePOS Tjap Kemiri",
+  "short_name": "CafePOS",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#F7F4EF",
+  "theme_color": "#A63A2B",
+  "icons": []
+}

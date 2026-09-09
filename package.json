@@ -1,0 +1,21 @@
+{
+  "name": "tjap-kemiri-cafepos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "lint": "eslint app/app.js app/sw.js server.mjs",
+    "check": "node --check server.mjs && node --check app/app.js && npm run lint"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^10.8.1",
+    "globals": "^17.9.0"
+  }
+}
